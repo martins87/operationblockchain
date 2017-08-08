@@ -1,3 +1,3 @@
 # Operation Blockchain
 
-A blockchain web application will be coded from scratch.
+A blockchain web application is being coded from scratch.
