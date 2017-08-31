@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Simple Blockchain</title>
+		<style rel="stylesheet" type="text/css">
+			body { font-family: Consolas; font-size: 15px }
+			.header { font-size: 25px; font-weight: bold }
+			.smaller { font-size: 10px }
+		</style>
+		<script type="text/javascript" src="sha256.js"></script>
+		<script type="text/javascript" src="blockchain.js"></script>
+	</head>
+	<body>
+		<div class="header">Create block</div>
+		<div>
+			<br>
+			<div>Data:</div>
+			<div><textarea autofocus rows="5" cols="50" id="data" ></textarea></div>
+			<div><input type="button" value="Create" id="button" onclick="newBlock(), addNewBlockData()"/></div>
+			<br>
+		</div>
+		<div class="header">Blockchain</div>
+		<div>
+			<p id="blockchain1"></p>
+		</div>
+		<script type="text/javascript">
+			createBlockchain();
+		</script>
+	</body>
+</html>
